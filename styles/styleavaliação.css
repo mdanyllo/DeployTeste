@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(170deg, #4d019e, #001f6d); /* Roxo para azul escuro */
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.perfil {
+    border-radius: 360px;
+    width: 50%;
+    height: 60%;
+    margin-top: 5%;
+}
+
+.nomebolsista {
+    margin-top: 5%;
+    font-size: 120%;
+}
+
+.avaliacao {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sessaoav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10%;
+}
+
+.gerarrel {
+    cursor: pointer;
+}

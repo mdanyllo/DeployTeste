@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(150deg, #4601a0, #000d3a);
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+.shape {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: rgba(192, 0, 255, 0.1);
+  border: 2px solid #ff00ff;
+  transform: rotate(45deg);
+}
+
+.shape1 {
+  top: 20px;
+  left: 20px;
+}
+
+.shape2 {
+  bottom: 40px;
+  right: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+
+label {
+  font-size: 500%;
+  margin-bottom: 7%;
+}
+
+select {
+  font-size: 3.3em;
+  width: 90%;
+  font-family: 'Orbitron', sans-serif;
+}
+
+option {
+  font-size: 20%;
+}
+
+button {
+  font-family: 'Orbitron', sans-serif;
+  margin-top: 10%;
+  font-size: 250%;
+  padding: 2%;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}

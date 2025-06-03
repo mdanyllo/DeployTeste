@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(150deg, #4601a0, #000d3a);
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+#imagem-preview {
+      width:100%;
+      margin-top: 15%;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+      cursor: pointer;
+      margin-bottom: 2%;
+    }
+
+#imagem-preview:hover {
+  opacity: 0.8;
+  }
+
+#input-foto {
+  display: none;
+  }
+
+.p_foto {
+  font-size: 200%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 500%;
+}
+  input {
+    font-size: 60%;
+    margin-bottom: 5%;
+  }
+
+  label {
+    margin-top: 10%;
+  }
+
+.button_cadastro {
+  margin-top: 5%;
+  font-family:'Orbitron', sans-serif ;
+  font-size: 300%;
+}  
+
+
+
