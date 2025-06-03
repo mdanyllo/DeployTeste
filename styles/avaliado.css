@@ -20,8 +20,9 @@ main {
 }
 
 #imagem-preview {
-      width:100%;
-      margin-top: 15%;
+      width: 490px;
+      height: 490px;
+      margin-top: 5%;
       border-radius: 50%;
       border: 2px solid #ccc;
       cursor: pointer;
