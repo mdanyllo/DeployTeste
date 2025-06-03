@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(170deg, #4d019e, #001f6d);
-  color: white;
+  color: #000d3a;
   font-family: 'Orbitron', sans-serif;
   display: flex;
   flex-direction: column;

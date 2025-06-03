@@ -1,5 +1,5 @@
 function entrarAvaliador() {
-    window.location.href="./avaliação.html";
+    window.location.href="./sumario.html";
 }
 
 function selecionarAvaliador() {

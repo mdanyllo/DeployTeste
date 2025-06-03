@@ -12,7 +12,7 @@ body {
     padding: 0;
     height: 100vh;
     background: linear-gradient(150deg, #4601a0, #000d3a);
-    color: white;
+    color: #000d3a;
     font-family: 'Orbitron', sans-serif;
     overflow: hidden;
     position: relative;

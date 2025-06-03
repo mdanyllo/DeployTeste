@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(150deg, #4601a0, #000d3a);
+    color: #000d3a;
+    font-family: 'Orbitron', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
