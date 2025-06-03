@@ -46,10 +46,14 @@ main {
 
 select {
     font-size: 77%;
-    width: 95%;
+    width: 90%;
 }
 
 .gerarrel {
     cursor: pointer;
     font-size: 120%;
+}
+
+textarea {
+    width: 87%;
 }
