@@ -44,6 +44,10 @@ main {
     font-size: 120%;
 }
 
+select {
+    font-size: 77%;
+}
+
 .gerarrel {
     cursor: pointer;
     font-size: 120%;
