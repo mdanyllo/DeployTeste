@@ -18,6 +18,15 @@ body {
     position: relative;
 }
 
-a {
-    text-decoration: none;
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+
+a {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+}
+
