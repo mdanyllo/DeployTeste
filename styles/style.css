@@ -26,9 +26,9 @@ section {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);      
   -webkit-backdrop-filter: blur(10px);
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 10px;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 form {
@@ -40,10 +40,10 @@ form {
 
 input {
   font-size: 115%;
-  padding: 2%;
+  padding: 2.5%;
   border-radius: 7px;
   cursor:text;
-  width: 100%;
+  width: 115%;
 }
 
 button {
@@ -53,6 +53,7 @@ button {
   background-color: #712fc7;
   color: white;
   font-family:'Orbitron', sans-serif ;
+  margin-top: 3%;
 }
 
 h4 {
