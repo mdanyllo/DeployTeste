@@ -15,7 +15,6 @@ body {
      background: linear-gradient(150deg, #4601a0, #000d3a);
     color: #000d3a;
     font-family: 'Orbitron', sans-serif;
-    overflow: hidden;
     position: relative;
 }
 
