@@ -73,11 +73,11 @@ a {
 }
 
 .shape1 {
-  top: 20px;
+  top: -30px;
   left: 20px;
 }
 
 .shape2 {
-  bottom: 40px;
+  bottom: -40px;
   right: 30px;
 }
