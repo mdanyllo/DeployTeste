@@ -1,11 +1,4 @@
-function entrarAvaliador() {
-    window.location.href="./sumario.html";
-}
-
-function selecionarAvaliador() {
-
-}   
-
+ 
 const inputFoto = document.getElementById('input-foto');
 const imagemPreview = document.getElementById('imagem-preview');
 
@@ -19,3 +12,17 @@ const imagemPreview = document.getElementById('imagem-preview');
         leitor.readAsDataURL(file);
       }
     });
+
+
+function mostrarSenha() {
+  const senha = getElementById('senha');
+  const btnSenha = getElementById('mostrar');
+
+  if (senha === 'password') {
+    senha.type = 'text';
+    btnSenha.textContent = '🙈';
+  } else {
+    senha.type = 'password';
+    btnSenha.textContent = '👀'
+  }
+}
