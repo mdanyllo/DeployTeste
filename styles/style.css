@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    min-height: 100vh;
      background: linear-gradient(150deg, #4601a0, #000d3a);
     color: #000d3a;
     font-family: 'Orbitron', sans-serif;
