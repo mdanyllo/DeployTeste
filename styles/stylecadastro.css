@@ -63,21 +63,3 @@ a {
   color: white;
 }
 
-.shape {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background: rgba(192, 0, 255, 0.1);
-  border: 2px solid #ff00ff;
-  transform: rotate(45deg);
-}
-
-.shape1 {
-  top: -30px;
-  left: 10px;
-}
-
-.shape2 {
-  bottom: 19px;
-  right: 20px;
-}
